@@ -1,5 +1,5 @@
 typeset -U path
-path=(~/.local/bin $path[@])
+path=(~/.local/bin ~/.yarn/bin $path[@])
 
 export EDITOR='vim'
 export ENABLE_CORRECTION=true
@@ -7,7 +7,7 @@ export ZSH=~/.oh-my-zsh
 
 ZSH_THEME='greg'
 
-plugins=()
+plugins=(yarn)
 
 source $ZSH/oh-my-zsh.sh
 
