@@ -74,3 +74,7 @@ sudo apt install --assume-yes dotnet-sdk-2.2
 dotnet tool install -g dotnet-format
 dotnet tool install -g dotnet-outdated
 
+# perl
+
+sudo apt install --assume-yes perl
+
