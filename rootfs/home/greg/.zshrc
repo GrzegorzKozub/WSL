@@ -1,5 +1,5 @@
 typeset -U path
-path=(~/.local/bin ~/.yarn/bin $path[@])
+path=(~/.gem/ruby/2.5.0/bin ~/.local/bin ~/.yarn/bin $path[@])
 
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export EDITOR='vim'
