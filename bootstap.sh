@@ -151,3 +151,16 @@ mix archive.install hex phx_new --force
 
 cp ./rootfs/home/greg/.iex.exs ~
 
+# vim
+
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.2/ripgrep_11.0.2_amd64.deb
+sudo dpkg -i ripgrep_11.0.2_amd64.deb
+rm ripgrep_11.0.2_amd64.deb
+
+sudo apt update
+sudo apt install --assume-yes astyle ctags ripgrep tidy
+
+git clone git@github.com:GrzegorzKozub/Vim.git ~/.vim
+
+vim -c "PlugInstall | exit"
+
