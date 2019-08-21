@@ -64,7 +64,7 @@ yarn global add \
 
 # dotnet
 
-wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 
@@ -88,6 +88,7 @@ pip install vim-vint --user --pre
 # ruby
 
 sudo apt install --assume-yes ruby ruby-dev
+
 gem install neovim --user-install
 
 # go
@@ -157,8 +158,7 @@ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.2/ripgrep_
 sudo dpkg -i ripgrep_11.0.2_amd64.deb
 rm ripgrep_11.0.2_amd64.deb
 
-sudo apt update
-sudo apt install --assume-yes astyle ctags ripgrep tidy
+sudo apt install --assume-yes astyle ctags tidy
 
 git clone git@github.com:GrzegorzKozub/Vim.git ~/.vim
 
