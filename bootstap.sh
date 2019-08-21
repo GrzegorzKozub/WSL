@@ -164,3 +164,7 @@ git clone git@github.com:GrzegorzKozub/Vim.git ~/.vim
 
 vim -c "PlugInstall | exit"
 
+# cleanup
+
+sudo apt autoremove --assume-yes
+
