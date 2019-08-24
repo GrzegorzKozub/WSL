@@ -6,5 +6,6 @@ Installing and configuring WSL on Windows 10
 2. Run `Install-Ubuntu.ps1` to install Ubuntu 18.04 to `D:\WSL` and create your user account
 3. To disable password requirement for `sudo`, run `sudo visudo` and replace `%sudo ALL=(ALL:ALL) ALL` with `%sudo ALL=(ALL:ALL) NOPASSWD:ALL`
 4. Re-open `wsl`
-5. Run `bootstrap.sh` to configure Ubuntu and install the apps
+5. Run `config.sh` to configure Ubuntu
+6. Run `apps.sh` to install the apps
 

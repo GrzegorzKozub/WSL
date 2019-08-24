@@ -1,0 +1,10 @@
+. ./git.sh
+. ./zsh.sh
+. ./node.sh
+. ./dotnet.sh
+. ./perl.sh
+. ./python.sh
+. ./ruby.sh
+. ./go.sh
+. ./elixir.sh
+. ./vim.sh
