@@ -1,3 +1,4 @@
+. ./common.sh
 . ./git.sh
 . ./zsh.sh
 . ./node.sh
