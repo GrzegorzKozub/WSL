@@ -17,5 +17,9 @@ setopt nobeep
 
 alias ls='ls --color=auto --group-directories-first --human-readable'
 
+autoload edit-command-line
+zle -N edit-command-line
+bindkey '^e' edit-command-line
+
 # https://github.com/microsoft/WSL/issues/352
 umask 022
