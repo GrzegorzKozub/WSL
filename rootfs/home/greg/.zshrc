@@ -9,7 +9,7 @@ export ZSH=~/.oh-my-zsh
 
 ZSH_THEME='greg'
 
-plugins=(yarn)
+plugins=(golang httpie mix npm yarn)
 
 source $ZSH/oh-my-zsh.sh
 
