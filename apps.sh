@@ -1,7 +1,7 @@
 . ./common.sh
 . ./git.sh
 . ./zsh.sh
-. ./node.sh
+. ./nodejs.sh
 . ./dotnet.sh
 . ./perl.sh
 . ./python.sh
