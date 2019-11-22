@@ -9,3 +9,4 @@
 . ./go.sh
 . ./elixir.sh
 . ./vim.sh
+. ./aws.sh
