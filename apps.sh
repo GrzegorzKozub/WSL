@@ -10,3 +10,4 @@
 . ./elixir.sh
 . ./vim.sh
 . ./aws.sh
+. ./openssh.sh
