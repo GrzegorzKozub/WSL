@@ -16,6 +16,7 @@ npm install --global \
   neovim \
   pm2 \
   rimraf \
+  serverless \
   tslint \
   typescript \
   typescript-formatter
