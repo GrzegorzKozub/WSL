@@ -1,6 +1,6 @@
 # nodejs
 
-cp ./rootfs/home/greg/.angular-config.json ~
+cp -r /mnt/c/Users/Greg/.angular-config.json ~
 cp ./rootfs/home/greg/.npmrc ~
 
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
