@@ -1,5 +1,7 @@
-. ./common.sh
 . ./git.sh
+. ./openssh.sh
+. ./aws.sh
+. ./common.sh
 . ./zsh.sh
 . ./nodejs.sh
 . ./dotnet.sh
@@ -9,5 +11,3 @@
 . ./go.sh
 . ./elixir.sh
 . ./vim.sh
-. ./aws.sh
-. ./openssh.sh
