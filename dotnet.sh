@@ -5,7 +5,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 rm packages-microsoft-prod.deb
 
 sudo apt update
-sudo apt install --assume-yes dotnet-sdk-3.0
+sudo apt install --assume-yes dotnet-sdk-3.1
 
 dotnet tool install -g dotnet-counters
 dotnet tool install -g dotnet-dump
