@@ -1,4 +1,6 @@
 # common
 
-sudo apt install --assume-yes tree
+sudo apt install --assume-yes \
+  graphviz \
+  tree
 
