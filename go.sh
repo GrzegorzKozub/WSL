@@ -1,9 +1,9 @@
 # go
 
-#sudo add-apt-repository --yes ppa:longsleep/golang-backports
+sudo add-apt-repository --yes ppa:longsleep/golang-backports
 
-#sudo apt update
-#sudo apt install --assume-yes golang-go
+sudo apt update
+sudo apt install --assume-yes golang-go
 
 for package in \
   `# https://github.com/Microsoft/vscode-go` \
