@@ -11,5 +11,6 @@ mix local.hex --force
 mix local.rebar --force
 mix archive.install hex phx_new --force
 
-cp -r /mnt/c/Users/Greg/.iex.exs ~
+cp /c/Users/Greg/.iex.exs ~
+chmod 644 ~/.iex.exs
 

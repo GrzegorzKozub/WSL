@@ -2,6 +2,14 @@
 
 sudo apt install --assume-yes python python-pip
 
-pip install awscli awsebcli aws-shell lastversion pynvim --user
-pip install vim-vint --user --pre
+pip install --user \
+  awscli \
+  awsebcli \
+  aws-shell \
+  docker-compose \
+  lastversion \
+  pynvim
+
+pip install --user --pre \
+  vim-vint
 

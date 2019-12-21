@@ -1,7 +1,10 @@
 # nodejs
 
-cp -r /mnt/c/Users/Greg/.angular-config.json ~
+cp /c/Users/Greg/.angular-config.json ~
+chmod 644 ~/.angular-config.json
+
 cp ./rootfs/home/greg/.npmrc ~
+chmod 644 ~/.npmrc
 
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
