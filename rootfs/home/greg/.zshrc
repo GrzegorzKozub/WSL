@@ -1,6 +1,7 @@
 typeset -U path
 path=(~/.gem/ruby/2.5.0/bin ~/.local/bin ~/go/bin ~/.npm/bin $path[@])
 
+export DOCKER_HOST=tcp://localhost:2375
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export EDITOR='vim'
 export ENABLE_CORRECTION=true
@@ -9,7 +10,7 @@ export ZSH=~/.oh-my-zsh
 
 ZSH_THEME='greg'
 
-plugins=(aws golang httpie mix npm zsh-syntax-highlighting)
+plugins=(aws docker docker-compose docker-machine golang mix npm zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 

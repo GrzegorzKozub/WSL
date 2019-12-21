@@ -11,3 +11,4 @@
 . ./go.sh
 . ./elixir.sh
 . ./vim.sh
+. ./docker.sh
